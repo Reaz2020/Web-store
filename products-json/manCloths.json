@@ -1,0 +1,91 @@
+[
+  {
+    "id": 1,
+    "name": "T-Shirt 1",
+    "price": 19.99,
+    "image": "images/man-cloths/m-cloth-1-2.jpg"
+  }, {
+    "id": 1,
+    "name": "T-Shirt 1",
+    "price": 19.99,
+    "image": "images/man-cloths/m-cloth-2.jpg"
+  }, {
+    "id": 1,
+    "name": "T-Shirt 1",
+    "price": 19.99,
+    "image": "images/man-cloths/m-cloth-3.jpg"
+  }, {
+    "id": 1,
+    "name": "T-Shirt 1",
+    "price": 19.99,
+   "image": "images/man-cloths/m-cloth-4.jpg"
+  }, {
+    "id": 1,
+    "name": "T-Shirt 1",
+    "price": 19.99,
+   "image": "images/man-cloths/m-cloth-5.jpg"
+  },
+  {
+      "id": 1,
+      "name": "T-Shirt 1",
+      "price": 19.99,
+      "image": "images/man-cloths/m-cloth-3.jpg"
+    }, {
+      "id": 1,
+      "name": "T-Shirt 1",
+      "price": 19.99,
+      "image": "images/man-cloths/m-cloth-4.jpg"
+    }, {
+      "id": 1,
+      "name": "T-Shirt 1",
+      "price": 19.99,
+      "image": "images/man-cloths/m-cloth-2.jpg"
+    }, {
+      "id": 1,
+      "name": "T-Shirt 1",
+      "price": 19.99,
+    "image": "images/man-cloths/m-cloth-3.jpg"
+    },{
+      "id": 1,
+      "name": "T-Shirt 1",
+      "price": 19.99,
+     "image": "images/man-cloths/m-cloth-5.jpg"
+    }, {
+      "id": 1,
+      "name": "T-Shirt 1",
+      "price": 19.99,
+      "image": "shirts/ts1.png"
+    }, {
+      "id": 1,
+      "name": "T-Shirt 1",
+      "price": 19.99,
+      "image": "shirts/ts1.png"
+    }, {
+      "id": 1,
+      "name": "T-Shirt 1",
+      "price": 19.99,
+      "image": "shirts/ts1.png"
+    }, {
+      "id": 1,
+      "name": "T-Shirt 1",
+      "price": 19.99,
+      "image": "shirts/ts1.png"
+    }, {
+      "id": 1,
+      "name": "T-Shirt 1",
+      "price": 19.99,
+     "image": "images/man-cloths/m-cloth-5.jpg"
+    }
+,
+
+    {
+      "id": 1,
+      "name": "T-Shirt 1",
+      "price": 19.99,
+    "image": "images/man-cloths/m-cloth-1-2.jpg"
+    }
+  
+  
+  
+  ]
+  

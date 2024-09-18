@@ -1,0 +1,783 @@
+body {
+    margin: 0%;
+    padding: 0%;
+    border: 10px solid rgba(71, 68, 68, 0.5);
+
+    
+}
+
+main {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+ 
+}
+
+
+/* search bar */
+.SearchingOpt {
+    
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    display: flex;
+    align-items: center;
+}
+
+
+
+.SearchingOpt input {
+    padding: 8px;
+    border: 1px solid #08e41b; /*  border color */
+    border-radius: 5px;
+    outline: none;
+}
+
+/* banner section   */
+
+.banner{
+
+ 
+   
+    width: 92%;
+   
+    display: flex;
+    border-radius: 10px;
+   
+
+
+    margin: 0 auto;
+    margin-bottom: 1rem;
+    
+   
+
+
+}
+
+/* banner section designed for man clothing (1) */
+
+.banner-heading-man-cloth{
+
+
+    background-image:url('images/man-acc/m-acc-6.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 50%;
+
+  
+    font-size: 2.5rem;
+  
+     width: 50%;
+
+
+
+     font-family: "Sofia", sans-serif;
+     font-weight: bolder;
+     color: #7e2414;
+     box-shadow: 10px 12px 20px rgba(0.1 , 60 , 50 , 10);
+     text-shadow:2px 4px .1px rgba(215, 14, 124, 0.6);
+   
+     background-color: rgba(71, 68, 68, 0.2);
+     border-radius: 5%;
+
+}
+.banner-para-man-cloth{
+    color: #09f065;
+}
+.shope-now-btn-man-cloth {
+    opacity: .8;
+    background-color: #0af057;
+    color: rgba(248, 7, 7, 0.815);
+    text-decoration: none;
+    padding: 7px 26px;
+    display: inline-block;
+    border-radius: 1rem;
+    border: 5px solid;
+    border-color: #f3070b;
+    font-size: 25px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+ 
+    text-shadow:none;
+
+}
+.span-man-cloth{
+    color: red;
+    font-size: 2rem;
+    font-weight: bold;
+}
+.banner-description-man-cloth h2{
+    opacity: .8;
+}
+
+
+.banner-img-man-cloth{
+    color: #97ac52;
+  
+    width: 50%;
+  
+    background-image:url('comon-images/common-img2-cloths.jpg');
+    background-size:cover;
+    border-radius: 5%;
+ 
+
+}
+
+/* banner section designed for man  acc (1) */
+
+.banner-heading-man-acc{
+    width: 90%;
+    height: 19rem;
+    display: flex;
+    margin: 0 auto;
+    border: 1px solid;
+    border-color: gray;
+    
+    background-image:url('images/man-acc/m-acc-4.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+    flex-direction: column;
+}
+/* banner section designed for woman  clothing (1) */
+.banner-heading-women-cloth {
+    background-image: url('images/women-acc/w-acc-3-big-img.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 90%;
+    display: flex;
+    margin: 0 auto;
+    text-align: center;
+    height:25rem;
+}
+
+.banner-description-women-cloth , .banner-description-women-acc , .banner-description-kid-cloth , .banner-description-kid-acc  {
+    width: 95%;
+    text-align: center;
+}
+/* banner section designed for woman  acc (1) */
+
+.banner-heading-women-acc{
+    background-image: url('images/women-acc/w-acc-12.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 90%;
+    display: flex;
+    margin: 0 auto;
+    text-align: center;
+    height:25rem;
+}
+/* banner section designed for kid  clothing (1) */
+.banner-heading-kid-cloth {
+    background-image: url('images/kid-acc/kid-acc-4.jpg');
+    background-position:center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 90%;
+    display: flex;
+    margin: 0 auto;
+    text-align: center;
+    height:25rem;
+}
+
+/* banner section designed for kid  acc (1) */
+.banner-heading-kid-acc {
+    background-image: url('images/kid-cloths/kid-cloth-2.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 90%;
+    display: flex;
+    margin: 0 auto;
+    text-align: center;
+    height:25rem;
+}
+
+
+
+/* product-section */
+
+.productSec {
+
+    margin: 0 auto;
+
+    /* flex-direction: column; */
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: fit-content;
+    background-color: transparent;
+  
+    background-image: url('comon-images/common-img1-women-2.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: -1;
+    width: 92%; 
+    padding-top: 2rem;
+    border-radius: 5%;
+  
+}
+
+
+.productitem {
+  
+   
+    
+    padding: 20px;
+    margin: 10px;
+    
+    border-radius: 10px;
+    border-width: 10px;
+    background-color: #c316c3;
+    
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+ 
+    transition: transform 0.2s ease-in-out; 
+    position: relative;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5); /* black with 50% transparency */
+    width: 12%;
+   
+    
+   
+}
+
+
+
+.productitem img {
+    width: 90%;
+   
+
+   
+}
+
+.productitem:hover {
+    transform: scale(1.05);
+}
+
+.productitem p {
+    margin: 10px 0;
+    font-size: 12px;
+    color: wheat;
+
+}
+
+ .viewPrdctBtn, .addToCart {
+    cursor: pointer;
+    border: none;
+    background-color: #465f6f;
+    color: #fff;
+    padding: 5px 10px;
+    margin-top: 5px;
+}
+
+
+
+.productitem.enlarge {
+
+
+    margin-top: 5rem;
+    padding-top: 5rem;
+
+ 
+   
+    transform: scale(2);
+    transition: 1.5s;
+    z-index: 10;
+    border-color: #be870f;
+    border-width: 5px;
+    border-radius: 10px;
+
+
+}
+
+/* header-section */
+
+header {
+
+
+    text-align: center;
+    
+    text-decoration: dashed;
+   
+   
+     z-index: 1;
+     margin-top: 0%;
+     height: 5rem;
+     padding-top: 1rem;
+     border-radius: 3%;
+     border-width: 10px;
+
+   
+ 
+    
+     position: sticky;
+     top: 1px;
+     padding-bottom: 0%;
+     margin-bottom: 0%;
+
+     border:1px solid red;
+
+
+    
+    
+ 
+    
+}
+
+
+.dropdownMenue {
+  
+    display: inline-block;
+    position: sticky;
+    border:1px solid red;
+    
+   
+}
+
+.dropbtn {
+    opacity: .7;
+    background-color: #040404;
+    color: white;
+    text-decoration: none;
+    padding: 7px 36px;
+    display: inline-block;
+    font: 900;
+    font-size: 120%;
+    border-radius: 1rem;
+    border-color: #a49696;
+}
+
+.dropbtn:hover {
+  background-color: #7f6161;
+  color: white;
+  border-radius: 1rem;
+}
+
+.dropdownMenuContent {
+    display: none;
+    position: absolute;
+    background-color: #4b6228;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    border-radius: 5%;
+    font-weight: bolder;
+    font-size: 100%
+}
+
+.dropdownMenuContent a {
+    color: rgb(228, 11, 11);
+    padding: 10px;
+    text-decoration: none;
+    display: block;
+    background-color: #333;
+}
+
+.dropdownMenuContent a:hover {
+    background-color: #030303;
+}
+
+.dropdownMenue:hover .dropdownMenuContent {
+    display: block; 
+}
+
+/* footer section */ 
+
+footer {
+    margin-top: 20px;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #0d0c0c;
+    padding: 20px;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+   
+   
+}
+/* social net links */
+.fa-brands{
+    margin-left: 1rem;
+    font-size: 30px;
+    background-color: rgb(200, 61, 96);
+
+}
+
+.footerList{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+
+}
+
+
+
+.footerList a{
+    color: rgb(243, 237, 225);
+   
+    text-decoration: none; 
+    
+    padding: 4px; 
+    list-style: none;
+    font-weight: bold;
+    
+    
+    
+}
+
+
+.hover-red:hover{
+  background-color: #ed064f;
+
+    
+    
+    
+}
+/* shop basket sec */
+
+.shoppingCart {
+    display: flex;
+    gap: .1rem;
+    position: fixed;
+    top: 2rem;
+    right: 2rem;
+    font-size: large;
+   
+    cursor: pointer;
+    opacity: 0.8;
+    gap: 0px;
+    margin-right: 0px;
+}
+
+
+
+#ClicksCounterForPrdct {
+   
+    color: rgb(202, 6, 6);
+    border-radius: 100%;
+    padding: 2px 5px;
+    font-weight: 900;
+    font-size: small;
+
+}
+
+.cartpic {
+    width: 25px;
+    height: 18px;
+ 
+    margin-left: 0;
+    
+}
+
+/*responsive design sections for small medium and large devices */
+
+@media only screen and (min-width: 430px) and (max-width: 1024px) {
+
+/* header sec  */
+
+    header {
+    
+        position: sticky;
+        top: 1px;
+        height: 5rem;
+        padding-top: 0rem;
+  
+         
+     }
+
+
+ .shoppingCart {
+        display: flex;
+        gap: .1rem;
+        position: fixed;
+        top: 3rem;
+        right: 4rem;
+       
+        cursor: pointer;
+        opacity: 0.8;
+        gap: 0px;
+       margin-right: 0px;
+    }
+
+    
+/* search bar */
+.SearchingOpt {
+   
+position: absolute;
+top: 35px;
+left: 15px;
+display: flex;
+}
+
+
+
+.SearchingOpt input {
+    padding: 6px;
+    border: 1px solid #08e41b; /*  border color */
+    border-radius: 5px;
+    outline: none;
+    margin-top: 3px;
+}
+
+/* banner sec */
+.banner{  
+    width: 92%;
+    display: flex;
+    border-radius: 10px;
+    margin: 0 auto;
+    flex-direction: column;
+    height: auto;
+
+    background-position: center;
+    background-size: cover;
+
+    }
+    
+    /* banner sec desigend for man clothing   */
+    .banner-heading-man-cloth{
+    
+      
+         font-size: 2.5rem;
+      
+         width: 100%;
+    
+    
+    
+         font-family: "Sofia", sans-serif;
+         font-weight: bolder;
+         color: #7e2414;
+         box-shadow: 10px 12px 20px rgba(0.1 , 60 , 50 , 10);
+         text-shadow:2px 4px .1px rgba(215, 14, 124, 0.6);
+         border-radius: 10px;
+
+    }
+
+    
+    .banner-img-man-cloth{
+    display: none;
+     
+     
+    
+    }
+
+
+
+    footer {
+        height: 60px;
+    }
+
+
+    .productSec {
+        /* flex-direction: column; */
+
+        display: flex;
+        justify-content: center;
+        height: fit-content;
+        background-color: transparent;
+        border-style: inset;
+        background-image: url('images/cloth8.jpg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        z-index: -1;
+     
+  
+        
+      
+    }
+
+
+    .productitem {
+        width: 30%;
+        height: 100%;
+       
+      
+    }
+
+    footer {
+        height: 60px;
+        width: 90%;
+        margin: 0 auto;
+       
+    }
+
+
+  
+
+
+}
+
+@media only screen and (min-width: 430px) and (max-width: 528px) {
+
+  
+/* header-sec */
+
+header {
+    
+    position: sticky;
+    top: 1px;
+    height: 3rem;
+    padding-top: .4rem;
+
+     
+ }
+
+
+
+
+ .dropdownMenuContent {
+   
+     max-width: 2rem;
+     box-shadow: 0px 8px 16px 0px rgba(169, 154, 154, 0.2);
+     z-index: 1;
+     font-weight: normal;
+   
+ }
+
+
+ .dropbtn {
+     opacity: 1;
+     color: rgb(222, 218, 230);
+     text-decoration: none;
+     padding: 7px 26px;
+     padding-left: 7px;
+     font-size: 8px;
+     width: 9px;
+ 
+ }
+
+ .dropbtn a{   
+     text-decoration: none;
+     padding: 0px 0px;
+   
+ }
+
+ footer {
+    height: 60px;
+    width: 90%;
+   
+}
+    
+    }
+
+    .footerList{
+        gap: 4px;
+    }
+
+
+@media only screen and ( max-width: 429px) {
+
+
+
+
+/* header-sec */
+
+header {
+    
+    position: sticky;
+    top: 1px;
+    height: 3rem;
+    padding-top: .4rem;
+
+     
+ }
+
+
+
+
+ .dropdownMenuContent {
+
+     max-width: 2rem;
+     box-shadow: 0px 8px 16px 0px rgba(169, 154, 154, 0.2);
+     z-index: 1;
+     font-weight: normal;
+   
+ }
+
+
+ .dropbtn {
+     opacity: 1;
+     color: rgb(222, 218, 230);
+     text-decoration: none;
+     padding: 7px 26px;
+     padding-left: 7px;
+     font-size: 8px;
+     width: 9px;
+ 
+ }
+
+ .dropbtn a{   
+     text-decoration: none;
+     padding: 0px 0px;
+   
+ }
+
+    
+
+    
+/* search bar */
+.SearchingOpt {
+display: none;
+    }
+    
+/* banner sec  */
+
+
+
+    .banner{
+        flex-direction: column;
+    
+        background-position: center;
+        background-size: cover;
+    }
+
+    /*banner sec designed for man clothing*/
+    .banner-heading-man-cloth{
+        width: 100%;
+    }
+    .banner-img-man-cloth{
+        display: none;
+    }
+
+
+
+
+
+
+.productSec{
+    margin-top: 2rem;
+    width: 100%;
+}
+
+.productitem {
+    width: 90%;
+    height: 100%;
+   
+  
+}
+.productitem  img{
+        width: 90%;
+        height: 100%;
+}
+
+
+/* footer sec */
+footer {
+        height: 60px;
+        width: 90%;
+       
+    }
+
+    .footerList{
+        gap: 4px;
+    }
+
+} 
+
+
